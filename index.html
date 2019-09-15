@@ -6,42 +6,67 @@
 </head>
 
 <body>
-    <h1>Git e GitHub</h1>
+    <div class="container">
+        <h1>Git e GitHub</h1>
 
-    <h2>git init nome-do-arquivo</h2>
-    <p>Indica qual arquivo começará a ser versionado pela ferramenta git.</p>
+        <h2>git init nome-do-arquivo</h2>
+        <p>Indica qual arquivo começará a ser versionado pela ferramenta git.</p>
 
-    <h2>git config --global user.name "nome-de-usuario"</h2>
-    <p>Informa o nome de usuário que realizará as mudanças no arquivo.</p>
+        <h2>git config --global user.name "nome-de-usuario"</h2>
+        <p>Informa o nome de usuário que realizará as mudanças no arquivo.</p>
 
-    <h2>git config --global user.email "email-do-usuario"</h2>
-    <p>Informa o nome de usuário que realizará as mudanças no arquivo.</p>
+        <h2>git config --global user.email "email-do-usuario"</h2>
+        <p>Informa o nome de usuário que realizará as mudanças no arquivo.</p>
 
-    <h2>git status</h2>
-    <p>Mostra o status do(s) arquivo(s), que precisa(m) ser adicionado(s) para ocorrer a mudanças.</p>
+        <h2>git status</h2>
+        <p>Mostra o status do(s) arquivo(s), que precisa(m) ser adicionado(s) para ocorrer a mudanças.</p>
 
-    <h2>git add nome-do-arquivo</h2>
-    <p>Adiciona o arquivo ao repositório.</p>
+        <h2>git add nome-do-arquivo</h2>
+        <p>Adiciona o arquivo ao repositório.</p>
 
-    <h2>git commit -m "descrição da atualização"</h2>
-    <p>Após ter adicionado o arquivo, descrever as mudanças que foram realizadas.</p>
+        <h2>git commit -m "descrição da atualização"</h2>
+        <p>Após ter adicionado o arquivo, descrever as mudanças que foram realizadas.</p>
 
-    <h2>git log</h2>
-    <p>Registro de mudanças realizado no arquivo.</p>
+        <h2>git log</h2>
+        <p>Registro de mudanças realizado no arquivo.</p>
 
-    <h2>git show</h2>
-    <p>Mostra o que foi alterado na última atualização.</p>
+        <h2>git show</h2>
+        <p>Mostra o que foi alterado na última atualização.</p>
 
-    <h2>git diff hash(1) hash(2)</h2>
-    <p>Mostra as mudanças acrescentadas/excluídas entre os dois momentos.</p>
+        <h2>git diff hash(1) hash(2)</h2>
+        <p>Mostra as mudanças acrescentadas/excluídas entre os dois momentos.</p>
 
-    <h2>git branch nome-da-branch</h2>
-    <p>Cria um novo "canal" para realizar as mudanças.</p>
+        <h2>git blame nome-do-arquivo</h2>
+        <p>Mostra quem realizou as mudanças no determinado arquivo.</p>
 
-    <h2>git checkout nome-da-branch</h2>
-    <p>Escolho a branch que desejo trabalhar.</p>
+        <h2>git branch nome-da-branch</h2>
+        <p>Cria um novo "canal" para realizar as mudanças.</p>
 
+        <h2>git checkout nome-da-branch</h2>
+        <p>Escolho a branch que desejo trabalhar.</p>
 
+        <h2>ssh-keygen -t rsa -b 4096 -C "email-do-usuario"</h2>
+        <p>Cria um par de chaves assimétrico.</p>
+
+        <h2>eval "$(ssh-agent -s)"</h2>
+        <p>Iniciar um agente de comunicação com o servidor.</p>
+
+        <h2>ssh-add ~/.ssh/id_rsa</h2>
+        <p>Adiciona o agente.</p>
+
+        <h2>Inserindo as informações no git</h2>
+        <p>Após toda a configuração, o usuário deverá cadastrar seu id_rsa.pub em settings -> SSH and GPG Keys.</p>
+
+        <h2>git remote add origin nome-do-repositório</h2>
+        <p>Pega as informações do repositório remoto.</p>
+
+        <h2>git clone nome-do-repositório</h2>
+        <p>Realiza uma cópia do repositório remoto. Opção utilizada quando o projeto esta em andamento.</p>
+
+        <h2>git push</h2>
+        <p>Envia as informações para o repositório remoto.</p>
+
+    </div>
 </body>
 
 </html>
