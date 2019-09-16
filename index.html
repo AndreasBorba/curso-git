@@ -98,6 +98,36 @@
 
         <h2>Sobre Pull Request</h2>
         <p>É uma maneira de verificar o código junto ao seu colegas antes de realizar o git merge.</p>
+
+        <h2>git rebase nome-da-branch</h2>
+        <p>Unifca os dados, assim como o merge, mas os commits da Branch selecionada, ficaram em primeiro e os commits da branch local ficaram em segundo.</p>
+
+        <h2>git stash</h2>
+        <p>Ele envia o arquivo para uma zona temporária. Muito útil quando o usuário quer alternar entre branch e é impedido pois é solicitado o commit e para isso, utiliza-se o git stash.</p>
+
+        <h2>git stash list</h2>
+        <p>Lista de arquivos que estão na zona temporária.</p>
+
+        <h2>git reset --soft hash</h2>
+        <p>Apaga o commit e os mais recentes após este commit, mas não apaga o arquivo.</p>
+
+        <h2>git reset --hard hash</h2>
+        <p>Apaga o commit e as informações do arquivo.</p>
+
+        <h2>git stash pop</h2>
+        <p>Remove da lista temporária.</p>
+
+        <h2>git stash drop</h2>
+        <p>Descarta todas as mudanças realizadas no arquivo.</p>
+
+        <h2>git clean -f</h2>
+        <p>Força a remoção de um arquivo indesejado.</p>
+
+        <h2>git cherry-pick hash</h2>
+        <p>Pega um commit especifico/funcionalidade de uma branch, evitando realizar o merge.</p>
+
+        <h2>git cherry-pick --continue</h2>
+        <p>Se houver erros ao realizar a junção, corrija (mas também adicione com git add .) e depois execute-o</p>
     </div>
 </body>
 

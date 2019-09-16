@@ -13,3 +13,7 @@ p {
     font-size: 12px;
     border-radius: 5px;
 }
+
+body {
+    margin-bottom: 100px;
+}
