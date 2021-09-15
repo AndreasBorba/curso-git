@@ -1,8 +1,8 @@
 
 ## Sobre
 
-Bem-vindo ao meu repositório do **GitHub**, estou iniciando o meu apredizado com a ferramenta _Git_ através do terminal.
+Bem-vindo ao meu repositório do **GitHub**, aqui estão alguns comandos necessários para trabalhar com a ferramenta de versionamento _Git_.
 
-### No arquivo HTML...
+### No arquivo HTML
 
-No arquivo estão alguns comandos necessários e algumas instruções para utilizar o git. 
+No arquivo estão comandos e algumas instruções para utilizar o git. 
