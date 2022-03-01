@@ -9,6 +9,15 @@
     <div class="container">
         <h1>Git e GitHub</h1>
 
+        <h2>ssh-keygen -t rsa -b 4096 -C "email-do-usuario"</h2>
+        <p>Cria um par de chaves assimétrico.</p>
+
+        <h2>eval "$(ssh-agent -s)"</h2>
+        <p>Iniciar um agente de comunicação com o servidor.</p>
+
+        <h2>ssh-add ~/.ssh/id_rsa <b>Não a chave pública (.pub)</b></h2>
+        <p>Adiciona o agente.</p>
+
         <h2>git init nome-do-arquivo</h2>
         <p>Indica qual arquivo começará a ser versionado pela ferramenta git.</p>
 
@@ -50,15 +59,6 @@
 
         <h2>git merge nome-da-branch</h2>
         <p>Unifica os dados com a branch citada.</p>
-
-        <h2>ssh-keygen -t rsa -b 4096 -C "email-do-usuario"</h2>
-        <p>Cria um par de chaves assimétrico.</p>
-
-        <h2>eval "$(ssh-agent -s)"</h2>
-        <p>Iniciar um agente de comunicação com o servidor.</p>
-
-        <h2>ssh-add ~/.ssh/id_rsa</h2>
-        <p>Adiciona o agente.</p>
 
         <h2>Inserindo as informações no git</h2>
         <p>Após toda a configuração, o usuário deverá cadastrar seu id_rsa.pub em settings -> SSH and GPG Keys.</p>
